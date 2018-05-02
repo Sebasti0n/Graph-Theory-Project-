@@ -1,5 +1,10 @@
-# -*- coding: utf-8 Prims
+""" This ifle should implement Prim's algorithm."""
+ 
 
-from prims_functions import cost, min_valid_incident_edge
+from prims_functions.py import cost, min_valid_incident_edge
 
-def Prism(Textfile )
+def Prims(textfile, G):
+    
+    tuple()
+
+    
