@@ -1,0 +1,14 @@
+
+#Michaels Attempt for Kruskals 
+
+from Weighted_Graph import*
+G = Weighted_Graph("test.txt")
+
+G.draw_graph()
+
+def minimum_spanning_edges(G, weight='weight', data=True):
+    G=nx.cycle_graph(4)
+    G.add_edge(0,3,weight=2) 
+    mst=nx.minimum_spanning_edges(G,data=False) 
+    edge_list=list(mst) 
+    
